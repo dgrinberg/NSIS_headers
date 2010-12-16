@@ -122,7 +122,7 @@ Var /GLOBAL __MDAC_FOUNDVER
 !define AtMostMDAC `AtMostMDAC`
 
 !macro __MDACVer_DefineTest Ver
-  !define IsMDAC${Ver} `"" HasMDAC ${Ver}`
+  !define IsMDAC${Ver} `"" IsMDAC ${Ver}`
   !define AtLeastMDAC${Ver} `"" AtLeastMDAC ${Ver}`
   !define AtMostMDAC${Ver} `"" AtMostMDAC ${Ver}`
 !macroend
